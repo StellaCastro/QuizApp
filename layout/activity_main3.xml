@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finish"
+    android:id="@+id/finish_layout"
+    tools:context="com.example.android.quizzsuper.Main3Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/name"
+            android:textSize="@dimen/ts50"
+            android:id="@+id/finish_name"
+            android:textColor="#ffffff"
+            android:layout_margin="@dimen/margin16"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_score"
+            android:textSize="@dimen/ts30"
+            android:id="@+id/finish_score"
+            android:layout_below="@id/finish_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/finish_score"
+            android:layout_marginRight="@dimen/margin20"
+            android:layout_marginLeft="@dimen/margin20"
+            android:text="@string/reset"
+            android:textSize="@dimen/ts25"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/margin30"
+            android:id="@+id/reset_button"
+            android:onClick="startOver"/>
+    </RelativeLayout>
+
+</ScrollView>

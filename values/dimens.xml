@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin40">40dp</dimen>
+    <dimen name="ts25">25sp</dimen>
+    <dimen name="bw170">170dp</dimen>
+    <dimen name="bh75">75dp</dimen>
+    <dimen name="ts14">14sp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="ts40">40sp</dimen>
+    <dimen name="ts30">30sp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin30">300dp</dimen>
+    <dimen name="bw0">0dp</dimen>
+    <dimen name="ts50">50sp</dimen>
+    <dimen name="pd40">40dp</dimen>
+    <dimen name="pd16">16dp</dimen>
+
+</resources>

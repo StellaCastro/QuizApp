@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F48FB1"
+    android:id="@+id/correct_toast_layout">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/ts25"
+        android:textStyle="bold"
+
+        android:text="That's Correct!"
+        android:padding="@dimen/pd40"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textColor="#fff"
+        android:id="@+id/correct_toast_text"/>
+
+</LinearLayout>
